@@ -4,7 +4,7 @@ import { MdAddCall } from "react-icons/md";
 
 const Navbar = () => {
 
-    const navlink = <div className="flex justify-center items-center gap-5   ">
+    const navlink = <div className="flex justify-center flex-col lg:flex-row items-center gap-5   ">
     <NavLink  className={({ isActive }) =>
           isActive
             ? "  font-grasick text-[18px] font-bold  text-green-400"
