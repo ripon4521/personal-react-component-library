@@ -31,7 +31,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="container mx-auto ">
+        <div data-aos="fade-down" className="container mx-auto ">
             <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">
@@ -44,7 +44,7 @@ const Navbar = () => {
     </div>
 
   <div className="flex   justify-center items-center">
-    <img  className="w-14 drop-shadow-md" src="../../../../public/logo.png" alt="" />
+    <img  className="w-14 drop-shadow-md" src="../../../assets/logo.png" alt="" />
   
   <a className=" font-grasick font-bold drop-shadow-md  text-xl text-green-500"><span className="font-rancho text-3xl">N</span>eedx </a>
   </div>
