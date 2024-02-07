@@ -1,3 +1,5 @@
+import Typewriter from 'typewriter-effect';
+
 const Banner = () => {
     return (
         <div>
@@ -7,8 +9,17 @@ const Banner = () => {
 
   <div className="mx-auto mb-8 w-full max-w-3xl text-center md:mb-12 lg:mb-16">
   
-    <h1 className="mb-4 text-4xl font-bold md:text-6xl">The Website You Want Without The Dev Time.</h1>
-    <p className="mx-auto mb-5 max-w-lg text-sm text-[#636262] sm:text-xl md:mb-6 lg:mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus</p>
+    <h1 className="mb-4 inline-block font-grasick text-4xl font-bold  md:text-6xl bg-gradient-to-r from-green-500 via-lime-500 to-lime-400 bg-clip-text text-transparent ">
+    <Typewriter
+  options={{
+    strings: [' The Website You Want Without The Dev Time.'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+        
+       </h1>
+    <p className="mx-auto mb-5 max-w-lg text-sm text-[#636262] sm:text-xl md:mb-6 lg:mb-8"></p>
   
     <div className="flex items-stretch justify-center">
       <a href="#" className="mr-5 inline-block rounded-md bg-black px-8 py-4 text-center font-semibold text-white md:mr-6 lg:mr-8">Get Started</a>
