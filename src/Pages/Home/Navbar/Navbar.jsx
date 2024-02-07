@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { FcBarChart } from "react-icons/fc";
+import { MdAddCall } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -42,8 +44,9 @@ const Navbar = () => {
     </div>
 
   <div className="flex   justify-center items-center">
-    <img  className="w-12 drop-shadow-md" src="../../../../public/logo.png" alt="" />
-  <a className=" font-grasick font-bold drop-shadow-md  text-2xl text-green-500">Ranacho </a>
+    <img  className="w-14 drop-shadow-md" src="../../../../public/logo.png" alt="" />
+  
+  <a className=" font-grasick font-bold drop-shadow-md  text-xl text-green-500"><span className="font-rancho text-3xl">N</span>eedx </a>
   </div>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -53,7 +56,8 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+ 
+    <a className="font-grasick font-bold bg-green-400 px-3 py-2 rounded-xl flex items-center gap-1">    <MdAddCall></MdAddCall>Contact</a>
   </div>
 </div>
 
