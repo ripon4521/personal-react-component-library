@@ -7,22 +7,22 @@ const Navbar = () => {
     const navlink = <div className="flex justify-center items-center gap-5   ">
     <NavLink  className={({ isActive }) =>
           isActive
-            ? "  font-grasick text-[18px] font-bold  text-green-500 "
+            ? "  font-grasick text-[18px] font-bold  text-green-400"
             : " font-grasick text-[18px] font-bold  "
         }><li>Home</li></NavLink>
   <NavLink  className={({ isActive }) =>
           isActive
-            ? "  font-grasick text-[18px] font-bold  text-green-500 "
+            ? "  font-grasick text-[18px] font-bold  text-green-400 "
             : " font-grasick  text-[18px] font-bold "
         }><li>About</li></NavLink>
     <NavLink   className={({ isActive }) =>
           isActive
-            ? "  font-grasick text-[18px] font-bold  text-green-500 "
+            ? "  font-grasick text-[18px] font-bold text-green-400 "
             : " font-grasick  text-[18px] font-bold"
         }><li>Service</li></NavLink>
     <NavLink   className={({ isActive }) =>
           isActive
-            ? "  font-grasick text-[18px]  font-bold  text-green-500"
+            ? "  font-grasick text-[18px]   font-bold  text-green-400"
             : " font-grasick  text-[18px] font-bold "
         }><li>Component</li></NavLink>
 
@@ -57,7 +57,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end">
  
-    <a className="font-grasick font-bold bg-green-400 px-3 py-2 rounded-xl flex items-center gap-1">    <MdAddCall></MdAddCall>Contact</a>
+    <a className="font-grasick font-bold bg-lime-400 px-3 py-2 rounded-xl flex items-center gap-1">    <MdAddCall></MdAddCall>Contact</a>
   </div>
 </div>
 
