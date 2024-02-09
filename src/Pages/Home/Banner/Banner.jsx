@@ -18,7 +18,7 @@ const Banner = () => {
 
   <div className="mx-auto mb-8 w-full max-w-3xl text-center md:mb-12 lg:mb-16">
   
-    <h1 className="mb-4 inline-block font-grasick text-4xl font-bold  md:text-6xl bg-gradient-to-r from-green-500 via-lime-500 to-lime-400 bg-clip-text text-transparent ">
+    <h1 className="mb-4 inline-block font-rancho text-4xl font-bold  md:text-6xl bg-gradient-to-r from-green-500 via-lime-500 to-lime-400 bg-clip-text text-transparent ">
     <Typewriter
   options={{
     strings: [' The Website You Want Without The Dev Time.'],
@@ -31,10 +31,10 @@ const Banner = () => {
     <p className="mx-auto mb-5 max-w-lg text-sm text-[#636262] sm:text-xl md:mb-6 lg:mb-8"></p>
   
     <div className="flex items-stretch justify-center">
-      <a href="#" className="mr-5 inline-block rounded-md bg-black px-8 py-4 text-center font-semibold text-white md:mr-6 lg:mr-8">Get Started</a>
-      <a href="#" className="flex items-center justify-center rounded-md border border-solid border-black px-6 py-3 font-bold text-black">
+      <a href="#" className="mr-5 inline-block rounded-md bg-gradient-to-r from-lime-500 via-lime-500 to-lime-400 px-8 py-4 text-center  font-rancho text-xl uppercase font-extrabold  md:mr-6 lg:mr-8"> See Components</a>
+      <a href="#" className="flex hover:bg-lime-400 items-center justify-center rounded-md border border-solid border-lime-400 px-6 py-3 font-bold text-black">
         <img src="https://assets.website-files.com/6458c625291a94a195e6cf3a/6458c625291a944888e6cf97_PlayCircle%20(1).svg" alt="" className="mr-2 inline-block max-h-4 w-5" />
-        <p className="text-sm text-black sm:text-base">Watch Demo</p>
+        <p className="text-2xl  text-black font-rancho  sm:text-2xl">Watch Demo</p>
       </a>
     </div>
   </div>
