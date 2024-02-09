@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { FcBarChart } from "react-icons/fc";
 import { MdAddCall } from "react-icons/md";
 
 const Navbar = () => {
@@ -7,22 +6,22 @@ const Navbar = () => {
     const navlink = <div className="flex justify-center flex-col lg:flex-row items-center gap-5   ">
     <NavLink  className={({ isActive }) =>
           isActive
-            ? "  font-grasick text-[18px] font-bold  text-green-400"
+            ? "  font-grasick text-[18px] font-bold text-white  hover:text-lime-400"
             : " font-grasick text-[18px] font-bold  "
         }><li>Home</li></NavLink>
   <NavLink  className={({ isActive }) =>
           isActive
-            ? "  font-grasick text-[18px] font-bold  text-green-400 "
+            ? "  font-grasick text-[18px] font-bold text-white  hover:text-lime-400 "
             : " font-grasick  text-[18px] font-bold "
         }><li>About</li></NavLink>
     <NavLink   className={({ isActive }) =>
           isActive
-            ? "  font-grasick text-[18px] font-bold text-green-400 "
+            ? "  font-grasick text-[18px] font-bold text-white  hover:text-lime-400 "
             : " font-grasick  text-[18px] font-bold"
         }><li>Service</li></NavLink>
     <NavLink   className={({ isActive }) =>
           isActive
-            ? "  font-grasick text-[18px]   font-bold  text-green-400"
+            ? "  font-grasick text-[18px]   font-bold  text-white  hover:text-lime-400"
             : " font-grasick  text-[18px] font-bold "
         }><li>Component</li></NavLink>
 
@@ -46,7 +45,7 @@ const Navbar = () => {
   <div className="flex   justify-center items-center">
     <img  className="w-14 drop-shadow-md" src="../../../assets/logo.png" alt="" />
   
-  <a className=" font-grasick font-bold drop-shadow-md  text-xl text-green-500"><span className="font-rancho text-3xl">N</span>eedx </a>
+  <a className=" font-grasick font-bold drop-shadow-md  text-xl text-white"><span className="font-rancho text-3xl">N</span>eedx </a>
   </div>
   </div>
   <div className="navbar-center hidden lg:flex">
